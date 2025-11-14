@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-func main() {
+func main() { 
 	database.ConnectDatabase()
 	r := routes.SetupRouter()
 	log.Println("🚀 Server running at http://localhost:8080")
